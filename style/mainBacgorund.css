@@ -1,0 +1,18 @@
+main{
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: backgroundChange 50s 5s infinite  ;
+  }
+  
+  @keyframes backgroundChange{
+      0%   {background-image: url('../img/pexels-herman-io-3584309.jpg') ;}
+      20%  {background-image: url('../img/pexels-asad-photo-maldives-3601453.jpg') ;}
+      40%  {background-image: url('../img/pexels-guillaume-meurice-1544376.jpg') ;}
+      60%  {background-image: url('../img/pexels-bogdan-krupin-3986709.jpg') ;}
+      80%  {background-image: url('../img/pexels-anouar-olh-1722206.jpg') ;}
+      100% {background-image: url('../img/pexels-herman-io-3584309.jpg') ;}
+  }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang='pl'>
+<head>
+    <meta charset='UTF-8'>
+    <title>zwykła strona</title>
+    <link rel='stylesheet' href='/style/style.css'>
+    <link rel='stylesheet' href='/style/mainBacgorund.css'>
+    <link rel='stylesheet' href='/style/aside.css'>
+    <link rel='stylesheet' href='/style/contactSection.css'>
+
+</head>
+<body>
+    <div class='wrapper'>
+          <main>
+            <aside>
+                <a href='/'>Główna</a>
+                <a href='shop'>Oferta</a>
+                <a href='access'>Dojazd</a>
+                <a class='active' href='contact'>Kontakt</a>
+            </aside>
+            <section>
+                <form action=''>
+                  <label for='name'>Imię</label>
+                  <input type='text' id='name' placeholder='z kim mam przyjemność?'>
+
+                  <label class='pointer' for='gender'>Płeć</label>
+                  <select id='gender' name='gender'>
+                    <option class="mele" value='male'>Mężczyzna</option>
+                    <option value='female'>Kobieta</option>
+                    <option value='?'>inne</option>
+                  </select>
+
+                
+                  <label for="age">
+                    <input type="checkbox" id="age" name="age"
+                    checked>
+                    mam 18 lat
+                  </label>
+              
+                  <label class='pointer' for='subject'>Subject</label>
+                  <textarea class="txtContact" id='subject' name='subject' placeholder='W czym mogę pomóc?' style='height:200px'></textarea>
+                </form>
+                <button>Wyślij</button>
+            </section>
+          </main>
+          <footer> 
+            <a href="https://github.com/JakuBorkowski?tab=repositories">Sprawdź inne nasze oferty!<span class="klik">klik</span></a>
+        </footer>
+        </div>
+</body>
+</html>

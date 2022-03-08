@@ -1,0 +1,15 @@
+form{
+    display: flex;
+    flex-direction: column;
+    color: #950E17;
+}
+.txtContact{
+    padding: 10px;
+}
+.pointer{
+    cursor: pointer;
+}
+button{
+    height: 40px;
+    width: 90px;
+}
