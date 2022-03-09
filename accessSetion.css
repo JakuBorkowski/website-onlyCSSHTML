@@ -7,7 +7,19 @@ section{
 text-align: center;
 }
 article{
-    text-align-last: justify;
-    margin: 2% 30%;
+    padding-top: 10%;
+    margin: 10% 30% ;
     padding: 3%;
+    transform: rotate(32deg);
+    top: calc(200px +10%);
+    width: 50%;
+    height: 50%;
+    opacity: .8;
+}
+p{
+    box-sizing: border-box;
+    transform: rotate(-15deg);
+    padding: 5% 0;
+    line-height: 30px;
+
 }
