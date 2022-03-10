@@ -1,3 +1,6 @@
+.mainBackgroundAnimationLoad{
+    animation: backgroundChange 1s;
+  }
 main{
     padding: 20px;
     flex-grow: 1;
